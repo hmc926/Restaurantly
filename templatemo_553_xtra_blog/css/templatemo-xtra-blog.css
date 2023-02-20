@@ -1,10 +1,25 @@
-/*
+#bg-video1 {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(-50%) translateY(-100%);
+    z-index: -100;
+    background-image: url(/templatemo_553_xtra_blog/img/blooms.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
-TemplateMo 553 Xtra Blog
-
-https://templatemo.com/tm-553-xtra-blog
-
-*/
+.divPosition{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);
+}
 
 html { overflow-x: hidden; }
 
